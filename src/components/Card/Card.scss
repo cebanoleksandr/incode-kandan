@@ -1,0 +1,17 @@
+.card {
+  width: 100%;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.icon-edit {
+  cursor: pointer;
+  color: var(--success-color);
+}
+
+.icon-trash {
+  cursor: pointer;
+  color: var(--danger-color);
+}

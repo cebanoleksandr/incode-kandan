@@ -1,0 +1,19 @@
+.separator {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hr {
+  transform: translate(0, 8px);
+  top: 5px;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or {
+  color: #ccc;
+  margin-right: 10px;
+  margin-left: 10px;
+}

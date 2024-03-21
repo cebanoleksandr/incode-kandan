@@ -1,0 +1,22 @@
+.board-card {
+  padding: 24px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.board-img {
+  width: 250px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.icon-edit {
+  cursor: pointer;
+  color: var(--success-color);
+}
+
+.icon-trash {
+  cursor: pointer;
+  color: var(--danger-color);
+}

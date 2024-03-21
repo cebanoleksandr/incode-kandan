@@ -1,0 +1,12 @@
+.board-column {
+  margin-inline: 10px;
+  width: 100%;
+}
+
+.board-field {
+  width: 100%;
+  padding: 24px;
+  background-color: #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}

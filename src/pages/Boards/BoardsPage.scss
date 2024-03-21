@@ -1,0 +1,27 @@
+.boards-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.add-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  padding: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--success-color);
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+
+.add-btn:hover {
+  opacity: 80%;
+}
+
+.add-icon {
+  color: #fff;
+}

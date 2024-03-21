@@ -1,0 +1,21 @@
+.notification {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  cursor: pointer;
+  color: var(--danger-color);
+}
+
+.close-danger {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+  cursor: pointer;
+  color: var(--warning-color);
+}

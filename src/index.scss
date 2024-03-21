@@ -1,0 +1,285 @@
+:root {
+  --primary-color: #316FEA;
+  --dark-color: #333333;
+  --light-color: #fff;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --warning-color: rgb(192, 173, 0);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: calc(100vh - 110px);
+  margin: auto;
+  overflow: hidden;
+  padding: 84px 24px 24px;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-danger {
+  color: var(--danger-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.badge {
+  display: inline-block;
+  opacity: 0.8;
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: var(--light-color);
+  color: #333;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--light-color);
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity .2s ease-in;
+  outline: none;
+
+  &:disabled {
+    cursor: not-allowed;
+    background: var(--light-color);
+    color: #111;
+  }
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-link:hover {
+  opacity: 80%;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-sm {
+  font-size: 0.8rem;
+  padding: 0.3rem 1rem;
+  margin-right: 0.2rem;
+}
+
+.badge-warning {
+  background-color: var(--warning-color);
+  color: var(--dark-color);
+}
+
+.bg-primary,
+.btn-primary,
+.badge-primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.btn-light,
+.bg-light,
+.badge-light,
+.alert-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.btn-success,
+.bg-success,
+.badge-success,
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.btn-white,
+.bg-white,
+.badge-white,
+.alert-white {
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.bg-light,
+.badge-light {
+  border: 1px solid #ccc;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='search'],
+input[type='date'],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover,
+input[type='search']:hover,
+input[type='date']:hover,
+textarea:hover {
+  border: 1px solid #4d4d4d;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='date']:focus,
+textarea:focus {
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+input[type='submit'],
+button {
+  font: inherit;
+}
+
+.btn-icon {
+  width: 16px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 150;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+  min-width: 350px;
+  border-radius: 10px;
+  background-color: var(--light-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.validation {
+  color: var(--danger-color);
+  height: 20px;
+}
+
+.login-form.form-control .error-field {
+  border: 1px solid var(--danger-color);
+}
+
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+}
+
+.link:hover {
+  opacity: 80%;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}

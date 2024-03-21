@@ -1,0 +1,27 @@
+.comment {
+  display: flex;
+}
+
+.comment-author {
+  width: 150px;
+}
+
+.comments-field {
+  background-color: #ccc;
+  padding: 24px;
+  border-radius: 10px;
+  height: 30vh;
+  overflow: auto;
+}
+
+.comment-text {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.comment-text-background {
+  padding: 5px 10px;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  border-radius: 5px;
+}
